@@ -1,9 +1,23 @@
-.navbar-inverse .navbar-nav>li>a{
-
-	color:#FFF;
+#header-txt{
+text-align:center;
+margin-top:-33px;
+font-family: 'Halant', serif;
 }
 
-.navbar-brand .navbar-inverse{
+#header-txt h1{
+text-align:center;
+font-family: 'Halant', serif;
+font-size:37px;
+}
 
-	color:blue;
+.header-white{
+color:white;
+}
+
+.header-white h1{
+color:white;
+}
+
+#header-caption{
+	font-size:20px;
 }

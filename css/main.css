@@ -21,3 +21,16 @@ color:white;
 #header-caption{
 	font-size:20px;
 }
+
+.social-buttons{
+	height:40px;
+	width:40px;
+	margin-left:10px;
+	margin-top:5px;
+
+}
+
+.social-buttons:hover{
+	opacity:0.8;
+
+}

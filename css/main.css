@@ -58,7 +58,15 @@ color:white;
 	font-size:18px;
 }
 
+a.navbar-brand{
+	padding-right:135px;
 
+
+}
+
+/*.navbar-brand{
+	padding-left:100px;
+}*/
 
 /*media query practice*/
 

@@ -1151,6 +1151,7 @@ mark,
 }
 .text-muted {
   color: #777;
+  font-weight: bold;
 }
 .text-primary {
   color: #428bca;

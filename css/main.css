@@ -64,6 +64,11 @@ a.navbar-brand{
 
 }
 
+.first-letter{
+	font-size:60px;
+	font-family: 'Pacifico', cursive;
+}
+
 /*.navbar-brand{
 	padding-left:100px;
 }*/

@@ -37,6 +37,7 @@ body {
 }
 .navbar-wrapper .navbar .container {
   width: auto;
+  padding-left:60px;
 }
 
 

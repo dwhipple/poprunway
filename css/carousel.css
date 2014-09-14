@@ -17,11 +17,13 @@ body {
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
-  position: absolute;
+  /*position: absolute;*/
+  position:static;
   top: 0;
   right: 0;
   left: 0;
   z-index: 20;
+  color:white;
 }
 
 /* Flip around the padding for proper display in narrow viewports */

@@ -68,6 +68,90 @@ body {
   font-weight:500;
 }
 
+
+/*media query for font*/
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media (min-device-width: 320px) and (max-device-width: 480px) {
+.carousel-caption h1 {
+font-size:35px;
+        }
+}
+ 
+/* Smartphones (landscape) ----------- */
+@media (min-width: 321px){
+.carousel-caption h1 {
+font-size:35px;
+        }
+}
+
+ 
+/* Smartphones (portrait) ----------- */
+@media (max-width: 320px) {
+.carousel-caption h1 {
+font-size:35px;
+        }
+}
+
+ 
+/* iPads (portrait and landscape) ----------- */
+
+
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+.carousel-caption h1{
+font-size:63px;
+        }
+}
+ 
+/* iPads (landscape) ----------- */
+@media (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:landscape) {
+.carousel-caption h1 {
+font-size:63px;
+        }
+}
+
+ 
+/* iPads (portrait) ----------- */
+
+@media (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait) {
+.carousel-caption h1{
+font-size:63px;
+        }
+}
+
+ 
+/* Desktops and laptops ----------- */
+
+@media (min-width: 1224px) {
+.carousel-caption h1 {
+font-size:63px;
+        }
+}
+
+ 
+/* Large screens ----------- */
+
+@media (min-width: 1824px) {
+.carousel-caption h1 {
+font-size:63px;
+        }
+}
+ 
+/* iPhone 4 ----------- */
+
+@media (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+.carousel-caption h1 {
+font-size:35px;
+        }
+}
+
+/*@media (min-width: 320px) and (max-width: 600px) {
+.carousel-caption h1 {
+font-size:35px;
+        }*/
+
 .carousel-caption h2{
   font-size:30px;
   font-family: 'Halant', serif;

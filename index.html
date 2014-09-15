@@ -278,11 +278,14 @@ LOOK UP HOW TO MAKE NAVBAR GO TO SPECIFIC SECTION/FEATURETTE, IF IT NEEDS A DIV/
               <li>Upcoming Dates/Events</li>
               <li>Featured Designers</li><br><br>
 
+        
         <p class="header-white">Exclusive Behind the Scenes Video from MPR on 9/10/14</p>
 
+        <div class="vids">
         <iframe src="//player.vimeo.com/video/106127962?title=0&amp;byline=0&amp;portrait=0&amp;color=d745ed" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
           </span></p>
+        </div>
         </div>
       </div>
 
@@ -392,6 +395,16 @@ LOOK UP HOW TO MAKE NAVBAR GO TO SPECIFIC SECTION/FEATURETTE, IF IT NEEDS A DIV/
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script src="js/jquery.fitvids.js"></script>
+
+<script>
+  $(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $(".vids").fitVids();
+  });
+</script>
+
     <script src="js/jquery.sticky.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/docs.min.js"></script>

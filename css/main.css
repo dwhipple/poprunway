@@ -75,6 +75,11 @@ font-family: 'Raleway', sans-serif;
 font-size:20px;
 }
 
+.footer-links{
+padding-right:380px;
+margin:10px;
+}
+
 /*.navbar-brand{
 	padding-left:100px;
 }*/

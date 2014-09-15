@@ -81,29 +81,36 @@ margin:10px;
 }
 
 
+
+
+
+/*===media query for social buttons/icons===========*\
+
 /*media query for font*/
 
 
 
 /* Smartphones (portrait and landscape) ----------- */
 @media (min-device-width: 320px) and (max-device-width: 480px) {
-.carousel-caption h1 {
-font-size:35px;
+.social-buttons {
+margin-left:1px;
+margin-top:1px;
         }
 }
  
 /* Smartphones (landscape) ----------- */
-@media (min-width: 321px){
-.carousel-caption h1 {
-font-size:35px;
+.social-buttons {
+margin-left:1px;
+margin-top:1px;
         }
 }
 
  
 /* Smartphones (portrait) ----------- */
 @media (max-width: 320px) {
-.carousel-caption h1 {
-font-size:35px;
+.social-buttons {
+margin-left:1px;
+margin-top:1px;
         }
 }
 
@@ -112,15 +119,17 @@ font-size:35px;
 
 
 @media (min-device-width: 768px) and (max-device-width: 1024px) {
-.carousel-caption h1{
-font-size:63px;
+.social-buttons {
+margin-left:10px;
+margin-top:5px;
         }
 }
  
 /* iPads (landscape) ----------- */
 @media (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:landscape) {
-.carousel-caption h1 {
-font-size:63px;
+.social-buttons {
+margin-left:10px;
+margin-top:5px;
         }
 }
 
@@ -128,8 +137,9 @@ font-size:63px;
 /* iPads (portrait) ----------- */
 
 @media (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait) {
-.carousel-caption h1{
-font-size:63px;
+.social-buttons {
+margin-left:10px;
+margin-top:5px;
         }
 }
 
@@ -137,8 +147,9 @@ font-size:63px;
 /* Desktops and laptops ----------- */
 
 @media (min-width: 1224px) {
-.carousel-caption h1 {
-font-size:63px;
+.social-buttons {
+margin-left:10px;
+margin-top:5px;
         }
 }
 
@@ -146,8 +157,9 @@ font-size:63px;
 /* Large screens ----------- */
 
 @media (min-width: 1824px) {
-.carousel-caption h1 {
-font-size:63px;
+.social-buttons {
+margin-left:10px;
+margin-top:5px;
         }
 }
  
@@ -159,10 +171,7 @@ font-size:35px;
         }
 }
 
-
-/*==============*\
-
-@media (min-width: 320px) and (max-width: 600px) {
+/*@media (min-width: 320px) and (max-width: 600px) {
 .social-buttons {
  margin-left:5px;
  margin-top:10px;
@@ -178,3 +187,4 @@ font-size:35px;
  .navbar-brand {
  padding-left:50px;
         }
+*/

@@ -159,7 +159,7 @@ padding-bottom:25px;
 .carousel-caption h2{
   font-size:25px;
   font-family: 'Lato', sans-serif;
-  font-weight:100;
+  font-weight:300;
 }
 
 
@@ -171,6 +171,7 @@ padding-bottom:25px;
 @media (min-device-width: 320px) and (max-device-width: 480px) {
 .carousel-caption h2 {
 font-size:25px;
+font-weight:300;
         }
 }
  
@@ -178,6 +179,7 @@ font-size:25px;
 @media (min-width: 321px){
 .carousel-caption h2 {
 font-size:25px;
+font-weight:300;
         }
 }
 
@@ -186,6 +188,7 @@ font-size:25px;
 @media (max-width: 320px) {
 .carousel-caption h2 {
 font-size:25px;
+font-weight:300;
         }
 }
 
@@ -196,6 +199,7 @@ font-size:25px;
 @media (min-device-width: 768px) and (max-device-width: 1024px) {
 .carousel-caption h2{
 font-size:30px;
+font-weight:100;
         }
 }
  
@@ -203,6 +207,7 @@ font-size:30px;
 @media (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:landscape) {
 .carousel-caption h2 {
 font-size:30px;
+font-weight:100;
         }
 }
 
@@ -212,6 +217,7 @@ font-size:30px;
 @media (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait) {
 .carousel-caption h2{
 font-size:30px;
+font-weight:100;
         }
 }
 
@@ -221,6 +227,7 @@ font-size:30px;
 @media (min-width: 1224px) {
 .carousel-caption h2 {
 font-size:30px;
+font-weight:100;
         }
 }
 
@@ -230,6 +237,7 @@ font-size:30px;
 @media (min-width: 1824px) {
 .carousel-caption h2 {
 font-size:30px;
+font-weight:100;
         }
 }
  
@@ -238,6 +246,7 @@ font-size:30px;
 @media (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
 .carousel-caption h2 {
 font-size:30px;
+font-weight:300;
         }
 }
 

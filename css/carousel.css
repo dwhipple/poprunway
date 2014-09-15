@@ -76,14 +76,14 @@ body {
 /* Smartphones (portrait and landscape) ----------- */
 @media (min-device-width: 320px) and (max-device-width: 480px) {
 .carousel-caption h1 {
-font-size:35px;
+font-size:37px;
         }
 }
  
 /* Smartphones (landscape) ----------- */
 @media (min-width: 321px){
 .carousel-caption h1 {
-font-size:35px;
+font-size:37px;
         }
 }
 
@@ -91,7 +91,7 @@ font-size:35px;
 /* Smartphones (portrait) ----------- */
 @media (max-width: 320px) {
 .carousel-caption h1 {
-font-size:35px;
+font-size:37px;
         }
 }
 

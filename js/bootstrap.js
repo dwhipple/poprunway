@@ -309,7 +309,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   // }
 
   $('.carousel').carousel({
-  interval: 3000
+  interval: 4000
 })
 
   Carousel.prototype.keydown = function (e) {

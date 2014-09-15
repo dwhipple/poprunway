@@ -77,7 +77,6 @@ body {
 @media (min-device-width: 320px) and (max-device-width: 480px) {
 .carousel-caption h1 {
 font-size:40px;
-padding-bottom:25px;
         }
 }
  
@@ -85,7 +84,6 @@ padding-bottom:25px;
 @media (min-width: 321px){
 .carousel-caption h1 {
 font-size:40px;
-padding-bottom:25px;
         }
 }
 
@@ -94,7 +92,6 @@ padding-bottom:25px;
 @media (max-width: 320px) {
 .carousel-caption h1 {
 font-size:40px;
-padding-bottom:25px;
         }
 }
 
@@ -147,7 +144,6 @@ font-size:72px;
 @media (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
 .carousel-caption h1 {
 font-size:40px;
-padding-bottom:25px;
         }
 }
 

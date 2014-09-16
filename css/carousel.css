@@ -69,7 +69,7 @@ body {
 }
 
 
-/*media query for carousel h1 font*/
+/*===media query for caro slide h1 font===========*\
 
 
 
@@ -149,9 +149,6 @@ font-size:35px;
 
 
 
-
-
-
 .carousel-caption h2{
   font-size:25px;
   font-family: 'Lato', sans-serif;
@@ -159,7 +156,7 @@ font-size:35px;
 }
 
 
-/*media query for carousel h2 font*/
+/*===media query for caro slide h2 font===========*\
 
 
 

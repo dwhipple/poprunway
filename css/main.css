@@ -119,8 +119,8 @@ margin:10px;
 
 
 .navbar-inverse .navbar-nav>li>a{
-color:#777!important;
-cursor:pointer!important;
+color:#777;
+cursor:pointer;
 }
 
 

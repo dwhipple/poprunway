@@ -96,7 +96,9 @@ LOOK UP HOW TO MAKE NAVBAR GO TO SPECIFIC SECTION/FEATURETTE, IF IT NEEDS A DIV/
    
 
                 <li><a href="#about">MPR Experience</a></li>
-                <li><a href="#mica">Mica</a></li>
+                <!-- Modal Window for Mica Bio -->
+                <li><a class="nav navbar-nav" data-toggle="modal" data-target="#myModal">Mica</a></li>
+                <!-- Modal Window End, Rest of Navbar down here -->
                     <li><a href="#news">News</a></li>
                     <li><a href="#partners">Partners</a></li>
                     <li><a href="#themes">MPR Themes</a></li>
@@ -265,16 +267,26 @@ LOOK UP HOW TO MAKE NAVBAR GO TO SPECIFIC SECTION/FEATURETTE, IF IT NEEDS A DIV/
 
 
 
-            <!-- Section 3: Founder/Bio & Use Headshot
+            <!-- Section: Modal Window Bio
       ================================== -->
 
-      <hr class="featurette-divider">
+      
+      <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+       <!--  <h4 class="modal-title" id="myModalLabel">MH</h4> -->
+      </div>
+      <div class="modal-body">
+        <h2 id="section-modal"><span class="first-modal">F</span>ounder - Mica Hughes</h2>
+                <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/micabio.jpeg">
+         
 
-      <div class="row featurette">
-        <div class="col-md-7">
-         <!--  <h2 class="featurette-heading"> -->
-         <h2 id="section-txt"><span class="first-letter">F</span>ounder - Mica Hughes</h2>
-          <p class="lead"><span class="bio-white">
+        </div>
+           <p class="lead"><span class="bio-modal">
           After graduating from University of Maryland College Park, with a B.A. in Communications, Mica worked as a reporter for a local news station in Maryland. Later she was scouted for modeling on the beaches of Miami where she worked for a year and then immediately took her talents to the capital of fashion in New York City. She was immediately signed with Wilhelmina Models and Ford Models in NYC, as one of their top models. Mica has lived and modeled all over the world in places such as: Paris, London, Italy, Spain, Africa and more. Working the runways for top fashion designer's such as: Oscar de la Renta, Donna Karan, Chanel, Christian Dior, Dolce & Gabbana, Ralph Lauren, Etro, Gucci, Michael Kors and others.<br><br>
 
 
@@ -289,15 +301,16 @@ LOOK UP HOW TO MAKE NAVBAR GO TO SPECIFIC SECTION/FEATURETTE, IF IT NEEDS A DIV/
 
           Mica is currently the star of Bravo TV’s hit reality show Blood Sweat & Heels. It is the highest rated premier show in Bravo history.
           </span></p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="images/micabio.jpeg">
-         
-
-        </div>
-
-        <a name="partners"></a>
       </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Window End 
+      <div class="row featurette">
+        <div class="col-md-7">
+
+-->
 
 
         <!-- Section 4: News

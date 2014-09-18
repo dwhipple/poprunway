@@ -96,7 +96,7 @@ color:white;
 }
 
 a.navbar-brand{
-	padding-right:135px;
+	padding-right:105px;
 
 
 }
@@ -126,10 +126,6 @@ cursor:pointer;
 .modal-header {
   min-height: 16.42857143px;
   padding: 15px;
-}
-
-.navbar-brand{
-    background-image: url("images/prl.png");
 }
 
 

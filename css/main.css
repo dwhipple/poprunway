@@ -128,6 +128,13 @@ cursor:pointer;
   padding: 15px;
 }
 
+/*.logo-img{
+margin-top: -39px;
+padding top: 5px;
+height:87px;
+}*/
+
+
 
 /*===media query for social buttons/icons===========*\
 
@@ -142,6 +149,7 @@ margin-top:1px;
 }
  
 /* Smartphones (landscape) ----------- */
+@media (min-width: 321px){
 .social-buttons {
 margin-left:1px;
 margin-top:1px;
@@ -226,6 +234,7 @@ margin-top:-2px;
 }
  
 /* Smartphones (landscape) ----------- */
+@media (min-width: 321px){
 #section-txt {
 margin-top:-2px;
         }
@@ -304,6 +313,7 @@ margin:30px;
 }
  
 /* Smartphones (landscape) ----------- */
+@media (min-width: 321px){
 .featurette-divider {
 margin:30px;
         }
